@@ -187,7 +187,7 @@ with inputs:
     arr1=[[74,60,0,0,88,50,0.6,17.2,53,0,0,1]]
     st.write("###")
     y_pred=clf.predict(arr)
-    st.write(y_pred)
+    # st.write(y_pred)
     if y_pred==0:
         import time
         with st.spinner(text='Calculating..'):
